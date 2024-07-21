@@ -1,0 +1,118 @@
+.section-about{
+    background-color: $color-primary-light;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-dark, .1),
+        rgba($color-primary-dark, .1)), url(/img/backgroundftw1.jpg);
+    padding: 25rem 0;
+    margin-top: -15vh;
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
+}
+
+.section-features {
+    padding: 20rem 0;
+    margin-bottom: 10vh;
+    background-color: $color-primary-light;
+    background-image: url(/img/backgroundsection.jpg);  
+    background-size: cover;
+    opacity: .8;
+
+    transform: skewY(-5deg);
+    margin-top: -11rem;
+
+    &>*{
+        transform: skewY(5deg);
+    }
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+    
+} 
+.section-features--2 {
+    background-color: $color-white;
+    
+    padding: 25rem 0;
+    margin-top: -40vh;
+    @include respond(tab-port) {
+        padding: 20rem 0 10rem 0;
+    }
+
+    transform: skewY(-5deg);
+    margin-top: -11rem;
+
+    &>*{
+        transform: skewY(5deg);
+    }
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+    
+} 
+.section-tours{
+    background-color: $color-primary-light;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-dark, .1),
+        rgba($color-primary-dark, .1)), url(/img/backgroundftw1.jpg);
+    padding: 25rem 0;
+    margin-top: -40vh;
+    @include respond(tab-port) {
+        padding: 20rem 0 10rem 0;
+    }
+    
+}
+
+.section-stories {
+    position: relative;
+    padding: 15rem 0;
+    margin-top: -10vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-dark, .1),
+        rgba($color-primary-dark, .1)), url(/img/backgroundftw1.jpg);
+    clip-path: polygon( 5%, 100% 0%, 100% 100%, 0% 100%);
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
+.section-footer{
+    position: relative;
+    padding: 15rem 0;
+    margin-top: -10vh;
+    clip-path: polygon(0 5%, 100% 5%, 100% 100%, 0% 100%); 
+    
+    @include respond(tab-port) {
+        padding: 20rem 0 10rem 0;
+    }
+}
+
+.section-features--3{
+    background-color: $color-white;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-dark, .1),
+        rgba($color-primary-dark, .1)), url(/img/backgroundftw1.jpg);
+    padding: 25rem 0;
+    margin-top: -40vh;
+    @include respond(tab-port) {
+        padding: 20rem 0 10rem 0;
+    }
+
+    transform: skewY(-5deg);
+    margin-top: -11rem;
+
+    &>*{
+        transform: skewY(5deg);
+    }
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+    
+
+
+
+    
+
+}

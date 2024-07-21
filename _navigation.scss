@@ -1,0 +1,38 @@
+
+
+/* Style the links inside the navigation bar */
+/* Change the color of links on hover */
+/* Add a color to the active/current link */
+.topnav {
+	background-color: $color-all-web-darken;
+	overflow: hidden;
+	a {
+		float: inline-end; 
+		color: $color_1;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		&:hover {
+			background-color: $background-color_2;
+			color: $color_2;
+		}
+	}
+	a.active {
+		background-color: $color-primary-dark; 
+		color: $color_3;
+	}
+    @include respond(tab-port) {
+        top: 4.5rem;
+        right: 4.5rem;
+    }
+
+    @include respond(phone) {
+        top: 3.5rem;
+        right: 3.5rem;
+    }
+}
+    
+
+    
+    
